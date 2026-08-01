@@ -1,0 +1,8 @@
+Validation completed 2026-08-01.
+- Original architecture files retained.
+- New crest quick-switch integration source added.
+- ModBootstrap lifecycle wiring added.
+- Braces/parentheses/brackets balanced in the new source.
+- No translated/non-C# keywords from the uploaded legacy source remain.
+- JSON specification/config files parse successfully.
+- Full game-assembly compilation was not possible in this environment because the local Silksong managed assemblies and .NET SDK are unavailable.

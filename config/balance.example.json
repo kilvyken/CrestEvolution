@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "hunter": {
+    "stackDurationSeconds": 10.0,
+    "level2Threshold": 6,
+    "level3Threshold": 12,
+    "superRageHitsPerBonus": 6,
+    "superRageFlatDamagePerBonus": 5
+  },
+  "silkMother": {
+    "maxStage": 12,
+    "stageCostSilk": 9,
+    "silkPerMaskDamage": 3,
+    "silkCapWhileEnhanced": 99,
+    "minimumSilkToEnter": 9
+  },
+  "safety": {
+    "maxCriticalChance": 1.0,
+    "maxDamageMultiplier": 50.0,
+    "maxAdditionalDamageDepth": 1,
+    "maxInvulnerabilityLeaseSeconds": 10.0
+  }
+}

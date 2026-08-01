@@ -1,0 +1,33 @@
+{
+  "methods": {
+    "player.attack.resolved": {
+      "assemblyCandidates": ["Assembly-CSharp"],
+      "typeCandidates": ["REPLACE_WITH_LOCAL_TYPE"],
+      "methodCandidates": ["REPLACE_WITH_LOCAL_METHOD"],
+      "parameterTypeNames": [],
+      "returnTypeName": null,
+      "required": true
+    },
+    "player.damage.before": {
+      "assemblyCandidates": ["Assembly-CSharp"],
+      "typeCandidates": ["REPLACE_WITH_LOCAL_TYPE"],
+      "methodCandidates": ["REPLACE_WITH_LOCAL_METHOD"],
+      "parameterTypeNames": [],
+      "returnTypeName": null,
+      "required": true
+    },
+    "player.heal.request": {
+      "assemblyCandidates": ["Assembly-CSharp"],
+      "typeCandidates": ["REPLACE_WITH_LOCAL_TYPE"],
+      "methodCandidates": ["REPLACE_WITH_LOCAL_METHOD"],
+      "parameterTypeNames": [],
+      "returnTypeName": null,
+      "required": true
+    }
+  },
+  "assets": {
+    "HUN-050.guardian-sword-wave": ["REPLACE_WITH_SCENE/OBJECT/FSM/STATE"],
+    "REA-050.guardian-cross-slash": ["REPLACE_WITH_SCENE/OBJECT/FSM/STATE"],
+    "MOT-051.dimension-slash": ["REPLACE_WITH_SCENE/OBJECT/FSM/STATE"]
+  }
+}

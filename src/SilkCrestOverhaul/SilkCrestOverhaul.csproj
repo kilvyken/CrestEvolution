@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>SilkCrestOverhaul</AssemblyName>
+    <RootNamespace>SilkCrestOverhaul</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Core" Version="5.4.21" />
+    <PackageReference Include="HarmonyX" Version="2.9.0" />
+    <PackageReference Include="UnityEngine.Modules" Version="6000.0.50" />
+    <!-- Optional adapters. Pin versions only after validating against the local game setup. -->
+    <!-- <PackageReference Include="Needleforge" Version="0.9.0" /> -->
+    <!-- <PackageReference Include="Silksong.FsmUtil" Version="0.3.17" /> -->
+    <!-- <PackageReference Include="Silksong.PrepatcherPlugin" Version="1.4.0" /> -->
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\config\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
