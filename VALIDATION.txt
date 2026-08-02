@@ -1,8 +1,13 @@
-Validation completed 2026-08-01.
-- Original architecture files retained.
-- New crest quick-switch integration source added.
-- ModBootstrap lifecycle wiring added.
-- Braces/parentheses/brackets balanced in the new source.
-- No translated/non-C# keywords from the uploaded legacy source remain.
-- JSON specification/config files parse successfully.
-- Full game-assembly compilation was not possible in this environment because the local Silksong managed assemblies and .NET SDK are unavailable.
+Silk Crest Overhaul v0.3 Agent Skill validation
+Generated: 2026-08-02T11:11:17
+Files: 57
+JSON files valid: yes
+SKILL frontmatter: yes
+AGENTS.md present: yes
+Contract validator present: yes
+
+Contract checker:
+Silk Crest Overhaul contract validation
+WARN: empty catch requires compatibility justification/rate-limited diagnostics: src/SilkCrestOverhaul/Features/CrestSwitching/CrestQuickSwitchIntegration.cs
+WARN: game-bindings.json still contains placeholders; affected features must remain disabled
+Result: PASSED (2 warnings)

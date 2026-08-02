@@ -12,3 +12,11 @@
 - Native `inputActions` now provide the modifier and four directions; fixed `KeyCode`/raw-axis fallbacks were removed.
 - Added queued dash switching, dash settle frames, pre/post swap dash normalization, and horizontal velocity cleanup.
 - Corrected and made the legacy all-crests bench replenish behavior opt-in.
+
+## 0.3.0-agent-skill - 2026-08-02
+
+- 新增标准 Agent Skill 与根目录 `AGENTS.md`。
+- 新增机器可读和人工可读游戏 Key 注册表，区分 E0/E1/E2/U 证据。
+- 新增冲刺换纹章软锁安全协议、输入 Action 探针、FSM/资源探针流程。
+- 新增 Agent 任务模板、绑定报告模板和静态契约检查器。
+- 强化“禁止固定物理键、禁止猜绑定、单一换纹章所有者、资源事务与存档安全”约束。

@@ -1,48 +1,57 @@
-      773  CHANGELOG.md
-      269  Directory.Build.props
-     2441  FILE_MANIFEST.txt
-     3851  README.md
-      388  THIRD_PARTY_NOTICES.md
-      493  VALIDATION.txt
-      515  config/balance.example.json
-     1109  config/game-bindings.json
-     9326  docs/01_开发计划.md
-     9588  docs/02_代码参考.md
-    24768  docs/03_功能整合.md
-     7115  docs/04_实操辅助.md
-     5976  docs/05_高难代码示例.md
-    37489  spec/feature_catalog.json
-    35094  spec/source_paragraphs.json
-     2111  src/SilkCrestOverhaul/Bootstrap/ModBootstrap.cs
-     2738  src/SilkCrestOverhaul/Core/Combat/DamagePipeline.cs
-     1666  src/SilkCrestOverhaul/Core/Combat/InvulnerabilityLeaseService.cs
-      998  src/SilkCrestOverhaul/Core/Combat/SilkShieldPolicy.cs
-     2642  src/SilkCrestOverhaul/Core/Events/GameEventHub.cs
-      703  src/SilkCrestOverhaul/Core/Health/HealthConversionService.cs
-     1321  src/SilkCrestOverhaul/Core/Health/MarkedHealthPool.cs
-     1532  src/SilkCrestOverhaul/Core/Input/InputChordRouter.cs
-     1970  src/SilkCrestOverhaul/Core/Resources/ResourceLedger.cs
-      545  src/SilkCrestOverhaul/Core/Resources/VirtualToolService.cs
-     1079  src/SilkCrestOverhaul/Core/State/CrestRuntimeState.cs
-     3182  src/SilkCrestOverhaul/Core/State/TimedStackCounter.cs
-       92  src/SilkCrestOverhaul/Core/Time/IClock.cs
-      146  src/SilkCrestOverhaul/Core/Time/UnityClock.cs
-     1243  src/SilkCrestOverhaul/Features/CrestModuleFactory.cs
-      884  src/SilkCrestOverhaul/Features/CrestModuleRegistry.cs
-    44186  src/SilkCrestOverhaul/Features/CrestSwitching/CrestQuickSwitchIntegration.cs
-     2230  src/SilkCrestOverhaul/Features/Crests/HunterCrestModule.cs
-      501  src/SilkCrestOverhaul/Features/Crests/PlaceholderCrestModule.cs
-     2086  src/SilkCrestOverhaul/Features/Crests/SilkMotherCrestModule.cs
-     1101  src/SilkCrestOverhaul/Features/FeatureRuntime.cs
-      191  src/SilkCrestOverhaul/Features/ICrestModule.cs
-     3207  src/SilkCrestOverhaul/GameInterop/Binding/DynamicPatchResolver.cs
-     1714  src/SilkCrestOverhaul/GameInterop/Binding/GameBindingConfig.cs
-      561  src/SilkCrestOverhaul/GameInterop/IGameApi.cs
-      747  src/SilkCrestOverhaul/GameInterop/NeedleforgeAdapter.cs
-     1720  src/SilkCrestOverhaul/GameInterop/ReflectionGameApi.cs
-      837  src/SilkCrestOverhaul/Plugin.cs
-      911  src/SilkCrestOverhaul/SilkCrestOverhaul.csproj
-      379  src/SilkCrestOverhaul/UI/UiProjection.cs
-      665  tests/SilkCrestOverhaul.Core.Tests/README.md
-      662  tools/make_probe_request.py
-      996  tools/validate_spec.py
+AGENTS.md
+CHANGELOG.md
+Directory.Build.props
+FILE_MANIFEST.txt
+README.md
+THIRD_PARTY_NOTICES.md
+VALIDATION.txt
+config/balance.example.json
+config/game-bindings.json
+docs/01_开发计划.md
+docs/02_代码参考.md
+docs/03_功能整合.md
+docs/04_实操辅助.md
+docs/05_高难代码示例.md
+skills/silksong-crest-overhaul/SKILL.md
+skills/silksong-crest-overhaul/references/CREST_SWITCH_SAFETY.md
+skills/silksong-crest-overhaul/references/GAME_KEYS.md
+skills/silksong-crest-overhaul/references/PROBE_PLAYBOOK.md
+skills/silksong-crest-overhaul/references/game-key-registry.json
+skills/silksong-crest-overhaul/scripts/validate_contract.py
+skills/silksong-crest-overhaul/templates/agent-task.md
+skills/silksong-crest-overhaul/templates/binding-report.example.json
+spec/feature_catalog.json
+spec/source_paragraphs.json
+src/SilkCrestOverhaul/Bootstrap/ModBootstrap.cs
+src/SilkCrestOverhaul/Core/Combat/DamagePipeline.cs
+src/SilkCrestOverhaul/Core/Combat/InvulnerabilityLeaseService.cs
+src/SilkCrestOverhaul/Core/Combat/SilkShieldPolicy.cs
+src/SilkCrestOverhaul/Core/Events/GameEventHub.cs
+src/SilkCrestOverhaul/Core/Health/HealthConversionService.cs
+src/SilkCrestOverhaul/Core/Health/MarkedHealthPool.cs
+src/SilkCrestOverhaul/Core/Input/InputChordRouter.cs
+src/SilkCrestOverhaul/Core/Resources/ResourceLedger.cs
+src/SilkCrestOverhaul/Core/Resources/VirtualToolService.cs
+src/SilkCrestOverhaul/Core/State/CrestRuntimeState.cs
+src/SilkCrestOverhaul/Core/State/TimedStackCounter.cs
+src/SilkCrestOverhaul/Core/Time/IClock.cs
+src/SilkCrestOverhaul/Core/Time/UnityClock.cs
+src/SilkCrestOverhaul/Features/CrestModuleFactory.cs
+src/SilkCrestOverhaul/Features/CrestModuleRegistry.cs
+src/SilkCrestOverhaul/Features/CrestSwitching/CrestQuickSwitchIntegration.cs
+src/SilkCrestOverhaul/Features/Crests/HunterCrestModule.cs
+src/SilkCrestOverhaul/Features/Crests/PlaceholderCrestModule.cs
+src/SilkCrestOverhaul/Features/Crests/SilkMotherCrestModule.cs
+src/SilkCrestOverhaul/Features/FeatureRuntime.cs
+src/SilkCrestOverhaul/Features/ICrestModule.cs
+src/SilkCrestOverhaul/GameInterop/Binding/DynamicPatchResolver.cs
+src/SilkCrestOverhaul/GameInterop/Binding/GameBindingConfig.cs
+src/SilkCrestOverhaul/GameInterop/IGameApi.cs
+src/SilkCrestOverhaul/GameInterop/NeedleforgeAdapter.cs
+src/SilkCrestOverhaul/GameInterop/ReflectionGameApi.cs
+src/SilkCrestOverhaul/Plugin.cs
+src/SilkCrestOverhaul/SilkCrestOverhaul.csproj
+src/SilkCrestOverhaul/UI/UiProjection.cs
+tests/SilkCrestOverhaul.Core.Tests/README.md
+tools/make_probe_request.py
+tools/validate_spec.py

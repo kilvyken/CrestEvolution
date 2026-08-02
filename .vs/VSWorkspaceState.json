@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\docs",
+    "\\src",
+    "\\src\\SilkCrestOverhaul\\bin",
+    "\\src\\SilkCrestOverhaul\\bin\\Debug",
+    "\\src\\SilkCrestOverhaul\\Bootstrap",
+    "\\src\\SilkCrestOverhaul\\GameInterop",
+    "\\src\\SilkCrestOverhaul\\GameInterop\\Binding",
+    "\\tests",
+    "\\tools"
+  ],
+  "SelectedNode": "\\docs\\02_代码参考.md",
+  "PreviewInSolutionExplorer": false
+}

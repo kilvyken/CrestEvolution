@@ -10,6 +10,17 @@
 4. `docs/04_实操辅助.md`：本人需要在本地完成的反编译、FSM/贴图检查、运行测试与资料投喂方法。
 5. `docs/05_高难代码示例.md`：状态机、伤害管线、丝线护盾、虚拟工具、输入组合键、动态补丁等示例。
 
+
+## Agent Skill（必须）
+
+本包新增 `skills/silksong-crest-overhaul/SKILL.md`。本地 Agent 在修改任何代码前必须读取该 Skill 和其中的游戏 Key 注册表、冲刺换纹章安全协议与探针流程。根目录 `AGENTS.md` 提供自动发现入口。
+
+静态契约检查：
+
+```bash
+python skills/silksong-crest-overhaul/scripts/validate_contract.py .
+```
+
 ## 架构原则
 
 - **规则与游戏绑定分离**：`Core` 只处理数值和状态，`GameInterop` 才接触游戏类、FSM、Unity 对象与前置 Mod。
